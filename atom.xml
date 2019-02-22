@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//zainzzz.github.io/"/>
-  <updated>2019-02-22T14:34:38.139Z</updated>
+  <updated>2019-02-22T14:48:46.757Z</updated>
   <id>//zainzzz.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>为hexo添加RSS订阅</title>
+    <link href="//zainzzz.github.io/2019/02/22/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0RSS%E8%AE%A2%E9%98%85/"/>
+    <id>//zainzzz.github.io/2019/02/22/为hexo添加RSS订阅/</id>
+    <published>2019-02-22T14:48:19.000Z</published>
+    <updated>2019-02-22T14:48:46.757Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;安装hexo-generator-feed&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#安装hexo-generator-feed&quot;&gt;&lt;/a&gt; 安装&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>为hexo添加hexo-admin组件</title>

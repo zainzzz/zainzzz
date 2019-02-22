@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>为hexo添加RSS订阅</title>
+      <link href="/2019/02/22/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0RSS%E8%AE%A2%E9%98%85/"/>
+      <url>/2019/02/22/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0RSS%E8%AE%A2%E9%98%85/</url>
+      
+        <content type="html"><![CDATA[<h4 id="安装hexo-generator-feed"><a class="markdownIt-Anchor" href="#安装hexo-generator-feed"></a> 安装<a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="noopener">hexo-generator-feed</a></h4><p>在hexo根目录下执行下列命令</p><pre><code>npm install hexo-generator-feed --save</code></pre><p>然后在<code>_config.yml</code> 中配置如下：</p><pre><code>feed:  type: atom  path: atom.xml  limit: 20  hub:  content:  content_limit: 140  content_limit_delim: ' '  order_by: -date  icon: icon.png</code></pre><p>我用的主题是<a href="https://github.com/Molunerfinn/hexo-theme-melody" target="_blank" rel="noopener">hexo-theme-melody</a>，在主题对应的<code>_config.yml</code>中的social下加入</p><pre><code>social:rss fa: /atom.xml</code></pre><p>然后<code>hexo g</code>重新渲染，<code>hexo s</code>重启项目，就可以在首页看到RSS按钮了。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>为hexo添加hexo-admin组件</title>
       <link href="/2019/02/21/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0hexo-admin%E7%BB%84%E4%BB%B6/"/>
       <url>/2019/02/21/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0hexo-admin%E7%BB%84%E4%BB%B6/</url>
