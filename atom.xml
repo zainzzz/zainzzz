@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="//zainzzz.github.io/"/>
-  <updated>2019-02-22T14:48:46.757Z</updated>
+  <updated>2019-02-22T14:51:24.686Z</updated>
   <id>//zainzzz.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>为hexo添加RSS订阅</title>
     <link href="//zainzzz.github.io/2019/02/22/%E4%B8%BAhexo%E6%B7%BB%E5%8A%A0RSS%E8%AE%A2%E9%98%85/"/>
     <id>//zainzzz.github.io/2019/02/22/为hexo添加RSS订阅/</id>
-    <published>2019-02-22T14:48:19.000Z</published>
-    <updated>2019-02-22T14:48:46.757Z</updated>
+    <published>2019-02-22T14:48:00.000Z</published>
+    <updated>2019-02-22T14:51:24.686Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,12 @@
     
     </summary>
     
+      <category term="hexo" scheme="//zainzzz.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="//zainzzz.github.io/tags/hexo/"/>
+    
+      <category term="hexo-generator-feed" scheme="//zainzzz.github.io/tags/hexo-generator-feed/"/>
     
   </entry>
   

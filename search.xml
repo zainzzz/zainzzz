@@ -11,6 +11,20 @@
         <content type="html"><![CDATA[<h4 id="安装hexo-generator-feed"><a class="markdownIt-Anchor" href="#安装hexo-generator-feed"></a> 安装<a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="noopener">hexo-generator-feed</a></h4><p>在hexo根目录下执行下列命令</p><pre><code>npm install hexo-generator-feed --save</code></pre><p>然后在<code>_config.yml</code> 中配置如下：</p><pre><code>feed:  type: atom  path: atom.xml  limit: 20  hub:  content:  content_limit: 140  content_limit_delim: ' '  order_by: -date  icon: icon.png</code></pre><p>我用的主题是<a href="https://github.com/Molunerfinn/hexo-theme-melody" target="_blank" rel="noopener">hexo-theme-melody</a>，在主题对应的<code>_config.yml</code>中的social下加入</p><pre><code>social:rss fa: /atom.xml</code></pre><p>然后<code>hexo g</code>重新渲染，<code>hexo s</code>重启项目，就可以在首页看到RSS按钮了。</p>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> hexo-generator-feed </tag>
+            
+        </tags>
       
     </entry>
     
